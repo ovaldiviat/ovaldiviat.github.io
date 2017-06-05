@@ -4,7 +4,7 @@ function pageLoad() {
 	
 	}
 function okayClick{
-	
+	alert("yeah");
 }
 
 window.onLoad = pageLoad;
