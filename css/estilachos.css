@@ -1,0 +1,165 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #5D919F;
+	font-family:arial ;
+
+}
+
+.container{
+	
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+
+}
+
+/* cabecera */
+
+header{
+	background: #51B67F;
+	margin: 20px 0;
+}
+
+header h1{
+	padding: 20px 0;
+	text-align: center;
+}
+/* menu nav*/
+ #menuprincipal{
+ 	background: #CBCED1;
+ 	margin-bottom: 10px; 
+ }
+ #menuprincipal ul{
+ 	list-style: none;
+ 	overflow: hidden;
+ }
+#menuprincipal ul li{
+ 	float: left;
+ 	padding: 10px 5px;
+ }
+
+ #menuprincipal ul li:hover{
+ 	background: #AEAFB0;
+ }
+
+/* menu provincias*/
+
+.main{
+	width: 50%;
+	background: #C3CBFB;
+	padding: 20px;
+	float: left;
+	box-sizing: border-box;
+
+}
+.main img{
+	width: 100%;
+	height: auto;
+}
+
+
+#menuprovincias{
+	background:#5D919F;
+	float: left;
+	padding: 20px;
+	min-width: 20%;
+	box-sizing: border-box;
+}
+#menuprovincias ul li a {
+	color: #000;
+}
+
+.main h2{
+	color: #000;
+	font:bold 14px,verdana;
+}
+
+#cajamarca li a,#celendin li a,#bambamarca li a,#cajabamba li a{
+	color: #000;
+	list-style: none;
+	padding: 10px 15px;
+	text-decoration: none;
+
+}
+#cajamarca li .iicon-unread,#celendin li .iicon-unread,#bambamarca li .iicon-unread,#cajabamba li .iicon-unread{background: #3b5998;}
+#cajamarca li a:hover,#celendin li a:hover,#celendin li a:hover,#cajaamba li a:hover {
+	padding: 10px 30px;
+	background: #000000;
+	color: #fff;
+
+}
+
+/* aside*/
+
+
+aside{
+	width: 30%;
+	padding: 20px;
+	box-sizing: border-box;
+	background: #5D919F;
+	float: left;
+	
+
+}
+
+
+aside ul{
+	list-style: none;
+}
+
+aside ul li a {
+	display: inline-block;
+	color: #fff;
+	background: #000;
+	padding: 10px 15px;
+	text-decoration: none;
+}
+
+aside ul li .icon-facebook{background: #3b5998;}
+aside ul li .icon-twitter{background:#00abf0;}
+aside ul li .icon-google{background: #d95232;}
+aside ul li .icon-instagram{background:#D96FAB;}
+aside ul li .icon-youtube{background:#F5131B ;}
+aside ul li .icon-mail{background:#666666 ;}
+
+aside ul li a:hover {
+	padding: 10px 30px;
+	background: #000000;
+}
+
+
+
+
+/* footer*/
+footer{
+	clear: both;
+	margin-top: 20px;
+	box-sizing: border-box;
+	width: 100%
+	height:20px;
+	padding: 20px ;
+	background: #51B67F;
+	color: #000;
+	text-align: center;
+	font:bold 20px,verdana;
+	font-weight: bold;
+	Text-shadow: 1px  2px  1px #000000; 
+	
+
+}
+@media screen and (max-width: 800px){
+	.main{
+		width: 100%;
+	}
+	#menuprovincias{
+		width: 100%;
+	}
+	aside{
+		width: 100%;
+	}
+}
