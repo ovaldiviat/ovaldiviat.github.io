@@ -4,7 +4,8 @@ function pageLoad() {
 	
 	}
 function okayClick{
-	alert("yeah");
+	var jpg = document.getElemntbyId("img1");
+	jpg.src=("imgenes/granja.png");
 }
 
 window.onLoad = pageLoad;
