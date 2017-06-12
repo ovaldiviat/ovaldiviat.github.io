@@ -1,0 +1,37 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+  background: url(../imagenesST/fondo.jpg); 
+  font-family:arial ;
+
+}
+header{
+   margin: 20px 0;
+}
+
+header h1{
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+p{
+	color: #fff;
+}
+footer{
+  clear: both;
+  margin-top: 20px;
+  box-sizing: border-box;
+  width: 100%
+  height:20px;
+  padding: 20px ;
+  background: #48805B;
+  color: #000;
+  text-align: center;
+  font:bold 20px,verdana;
+  font-weight: bold;
+  Text-shadow: 1px  2px  1px #000000; 
+  
+
+}
